@@ -9,18 +9,18 @@
       font-family: Arial, sans-serif;
       background: #f0f0f0;
       color: #222;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       margin: 0;
+      padding: 0;
       text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 20px;
     }
 
     h1 {
       font-size: 3rem;
-      margin: 0.5rem 0;
+      margin-bottom: 0.5rem;
     }
 
     p {
@@ -32,7 +32,7 @@
       display: inline-block;
       margin: 0 10px;
       padding: 10px 20px;
-      background-color: #333;
+      background-color: #0077b5;
       color: white;
       text-decoration: none;
       border-radius: 5px;
@@ -40,34 +40,39 @@
       transition: background-color 0.3s;
     }
 
-    .links a.linkedin {
-      background-color: #0077b5;
-    }
-
     .links a.github {
       background-color: #333;
     }
 
     .links a:hover {
-      opacity: 0.8;
+      opacity: 0.85;
+    }
+
+    section {
+      padding: 40px 20px;
     }
 
     footer {
-      position: absolute;
-      bottom: 1rem;
+      padding: 20px;
       font-size: 0.9rem;
       color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>Chaitanya Nimbargi</h1>
-  <p>Welcome to my personal website.</p>
+  <header>
+    <h1>Chaitanya Nimbargi</h1>
+    <p>Welcome to my personal website.</p>
+    <div class="links">
+      <a href="https://in.linkedin.com/in/chaitanya-nimbargi-0bb47917a" target="_blank">LinkedIn</a>
+      <a href="https://github.com/nimbarigchaitanya4445" class="github" target="_blank">GitHub</a>
+    </div>
+  </header>
 
-  <div class="links">
-    <a href="https://in.linkedin.com/in/chaitanya-nimbargi-0bb47917a" class="linkedin" target="_blank">LinkedIn</a>
-    <a href="https://github.com/nimbarigchaitanya4445" class="github" target="_blank">GitHub</a>
-  </div>
+  <section>
+    <h2>Projects</h2>
+    <p>Coming soon...</p>
+  </section>
 
   <footer>&copy; 2025 Chaitanya Nimbargi</footer>
 </body>
